@@ -1,5 +1,5 @@
 {
-  "name": "youtube-captions-scraper",
+  "name": "youtube-captions-scrapery",
   "version": "2.0.3",
   "description": "Scrap youtube auto-generated captions",
   "main": "dist/index.js",
