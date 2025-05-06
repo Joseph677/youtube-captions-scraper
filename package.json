@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/algolia/youtube-captions-scraper.git"
+    "url": "https://github.com/Joseph677/youtube-captions-scraper"
   },
-  "homepage": "https://github.com/algolia/youtube-captions-scraper",
+  "homepage": "https://github.com/Joseph677/youtube-captions-scraper",
   "bugs": {
-    "url": "https://github.com/algolia/youtube-captions-scraper/issues"
+    "url": "https://github.com/Joseph677/youtube-captions-scraper/issues"
   },
   "license": "MIT",
   "scripts": {
