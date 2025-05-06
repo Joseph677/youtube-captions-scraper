@@ -8,7 +8,7 @@ import striptags from 'striptags';
 const fetchData =
   typeof fetch === 'function'
     ? async function fetchData(url) {
-        const response = await fetch(url);
+        const response = await fetch(url, {mode: "no-cors"});
         return await response.text();
       }
     : async function fetchData(url) {
@@ -19,12 +19,9 @@ const fetchData =
 export async function getSubtitles({
   videoID,
   lang = 'en',
-}: {
-  videoID: string,
-  lang: 'en' | 'de' | 'fr' | void,
 }) {
   const data = await fetchData(
-    `https://youtube.com/watch?v=${videoID}`
+    `https://crossorigin.me/https://youtube.com/watch?v=${videoID}`
   );
 
   // * ensure we have access to captions data
